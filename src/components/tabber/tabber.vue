@@ -20,8 +20,10 @@ export default {
    #tab-bar{ 
     position: relative;
     left: 34%;
+    top: -67px;
     width: 700px;
     display: flex;
+    /* min-width: 1903px; */
   }
 
 </style>

@@ -60,7 +60,8 @@ export default {
   height: 26px;
   opacity: 1;
   background: #d96464;
-  // padding: 0 19%;
+  min-width: 1903px;
+  position: relative;
   span{
     font-size: 14px;
     font-family: PingFangSC, PingFangSC-Regular;
@@ -72,10 +73,11 @@ export default {
   }
   #head_top_welcome{
     position: absolute;
+    margin-right: 19%;
     left: 19%;
   }
   #head_top_phone{
-    position: absolute;
+    position: relative;
     left:35%;
   }
   #head_top_title{
@@ -89,16 +91,17 @@ export default {
   background: #ffffff;  
   border: 1px solid #e6e6e6;
   width: 100%;
+  min-width: 1903px;
   // padding: 0 19%;
   #logo{
     width: 176px;
     height: 66px;
-    position: absolute;
-    top: 32px;
+    position: relative;
     left: 19%;
     opacity: 1;
-    background-image: url("../assets/img/logo.png") ;
+    background-image: url("../assets/img/home/首页-修改1/logo.png") ;
     background-size: cover;
+    margin-right: 5%;
   }
 }
 

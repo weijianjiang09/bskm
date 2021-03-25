@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-     <main-tab-bar></main-tab-bar>
-     <router-view></router-view>
+    <el-container>
+      <el-header><main-tab-bar></main-tab-bar></el-header>
+      <el-main><router-view></router-view></el-main>
+      <el-footer>Footer</el-footer>
+    </el-container>
   </div>
 </template>
 <script>
@@ -16,7 +19,17 @@ export default {
 }
 
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 
+.el-header,.el-footer,.el-main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow:visible;
+}
+.el-header{
+  height: 104px !important;
+}
 @import './assets/css/base.css';
+
 </style>
